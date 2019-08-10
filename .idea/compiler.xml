@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gitTesst" />
+        <module name="testBranch" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gitTesst" target="1.5" />
+      <module name="testBranch" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
